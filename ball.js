@@ -34,9 +34,9 @@ function drawBall()
         ball.vx = ball.vx
     }
 
+}
+
    x = x + xSpeed;
    y = y + ySpeed;
    
-}
-
 setInterval(drawBall, 20);
