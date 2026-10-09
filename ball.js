@@ -31,10 +31,10 @@ function drawBall()
         x = canvas.width - radius;
       xSpeed = -xSpeed
 
-    if (ball.x - ball.radius <= 0)
+    if (x - radius <= 0)
     {
-       y = canvas.width - radius;
-        ySpeed = -ySpeed
+       x = radius;
+        xSpeed = -xSpeed;
     }
 
 }
