@@ -17,10 +17,12 @@ function drawBall()
 
     context.fillStyle = "red";
     context.fill();
-    
-    ball.x += ball.vx;
-    ball.y += ball.vy;
 
+    
+   x = x + xSpeed;
+   y = y + ySpeed;
+   
+    
     if (ball.x + ball.radius >= canvas.width)
     {
         ball.x = canvas.width;
@@ -36,7 +38,4 @@ function drawBall()
 
 }
 
-   x = x + xSpeed;
-   y = y + ySpeed;
-   
 setInterval(drawBall, 20);
