@@ -33,6 +33,9 @@ function drawBall()
         ball.x = ball.radius;
         ball.vx = ball.vx
     }
+
+    xSpeed += drawBall;
+    ySpeed += drawBall;
 }
 
 setInterval(drawBall, 20);
