@@ -25,7 +25,7 @@ function drawBall()
     
     ball.x += ball.vx;
     ball.y += ball.vy;
-
+}
     if (ball.x + ball.radius >= canvas.width)
     {
         x = canvas.width - radius;
