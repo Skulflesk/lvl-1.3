@@ -23,6 +23,9 @@ function drawBall()
    y = y + ySpeed;
    
     
+    ball.x += ball.vx;
+    ball.y += ball.vy;
+
     if (ball.x + ball.radius >= canvas.width)
     {
         ball.x = canvas.width;
