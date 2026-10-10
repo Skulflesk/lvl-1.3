@@ -24,7 +24,7 @@ function drawBall()
    
     
   
-    if (x + x.radius >= canvas.width)
+    if (x + radius >= canvas.width)
     {
         x = canvas.width - radius;
       xSpeed = -xSpeed
